@@ -2,7 +2,7 @@
 
 ![Bivvy](/assets/jpg/bivvy.jpg)
 
-Syzygy, the mechanical keyboard with sixty six switches, no keycap stabilizer required. Build by Syenasweta a.k.a. Nashrullah Ali Fauzi. More Info at [Syenasweta](http://syenasweta.com).
+Bivvy, the mechanical keyboard with 4x5 matrix, no keycap stabilizer required. More Info at [Syenasweta](http://syenasweta.com).
 
 * Keyboard Maintainer: [Syenasweta(https://syenasweta.com)
 * Hardware Supported: Bivvy Rev.1 - 4

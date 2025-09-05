@@ -23,11 +23,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define UNICODE_SELECTED_MODES UNICODE_MODE_LINUX
 #define ENABLE_COMPILE_KEYCODE
 
-/* // Serial Driver 
+// Serial Driver 
 #define SERIAL_USART_FULL_DUPLEX
 #define SERIAL_USART_DRIVER SIOD0
 #define SERIAL_USART_TX_PIN GP0
-#define SERIAL_USART_RX_PIN GP1 */
+#define SERIAL_USART_RX_PIN GP1
 
 // Audio
 #ifdef AUDIO_ENABLE
@@ -87,8 +87,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 */
 
+
 #ifdef DYNAMIC_KEYMAP_LAYER_COUNT
     #define DYNAMIC_KEYMAP_LAYER_COUNT 16
+#endif
+
+#ifdef MIDI_ENABLE
+    #define MIDI_ADVANCED
 #endif
 
 // Mouse Keys
@@ -104,12 +109,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Pointing Device with Analog Joystick
 #ifdef POINTING_DEVICE_ENABLE
-    #define ANALOG_JOYSTICK_X_AXIS_PIN 26
-    #define ANALOG_JOYSTICK_Y_AXIS_PIN 27
+    #define ANALOG_JOYSTICK_X_AXIS_PIN GP26
+    #define ANALOG_JOYSTICK_Y_AXIS_PIN GP27
     //#define ANALOG_JOYSTICK_AUTO_AXIS
-    #define ANALOG_JOYSTICK_SPEED_REGULATOR 7
+    #define ANALOG_JOYSTICK_SPEED_REGULATOR 10
     #define ANALOG_JOYSTICK_READ_INTERVAL 10
-    #define ANALOG_JOYSTICK_SPEED_MAX 2
+    #define ANALOG_JOYSTICK_SPEED_MAX 3
     #define ANALOG_JOYSTICK_CUTOFF
     #define ANALOG_JOYSTICK_WEIGHTS {0,2,4,5,7,8,9,10,12,13,14,15,15,16,17,18,18,19,19,20,20,21,21,21,22,22,22,22,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,24,24,24,24,24,24,25,25,25,26,26,26,27,28,28,29,29,30,31,32,33,34,35,36,37,38,40,41,43,44,46,48,49,51,53,56,58,60,62,65,68,70,73,76,79,82,85,89,92,96,100}
     //#define POINTING_DEVICE_HIRES_SCROLL_ENABLE
@@ -118,3 +123,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     //#define MOUSE_EXTENDED_REPORT
     //#define WHEEL_EXTENDED_REPORT
 #endif
+
+//#ifdef ANALOG_DRIVER_REQUIRED
+//    #define ANALOG_POTENTIOMETER_PIN GP28
+//    #define ANALOG_POTENTIOMETER_MIN 0
+//    #define ANALOG_POTENTIOMETER_MAX 1023
+//    #define ANALOG_POTENTIOMETER_THRESHOLD 10
+//#endif

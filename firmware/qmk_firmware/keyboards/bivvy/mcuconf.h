@@ -19,9 +19,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // mcuconf.h:
 #include_next <mcuconf.h>
 
-// GPIO 5 PWM2 B
+#undef RP_ADC_USE_ADC1
+#define RP_ADC_USE_ADC1 TRUE
+
+#undef RP_ADC_USE_ADC2
+#define RP_ADC_USE_ADC2 TRUE
+
+#undef RP_ADC_USE_ADC_TS
+#define RP_ADC_USE_ADC_TS FALSE
+
+#undef RP_ADC_USE_ADC_VREF
+#define RP_ADC_USE_ADC_VREF TRUE
+
+#undef RP_ADC_USE_ADC_VBAT
+#define RP_ADC_USE_ADC_VBAT FALSE
+
 #undef RP_PWM_USE_PWM2
 #define RP_PWM_USE_PWM2 TRUE
 
-// #undef RP_SIO_USE_UART0
-// #define RP_SIO_USE_UART0 TRUE
+#undef RP_SIO_USE_UART0
+#define RP_SIO_USE_UART0 TRUE
