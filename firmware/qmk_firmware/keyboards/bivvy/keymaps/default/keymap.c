@@ -16,97 +16,97 @@ enum keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        QK_MOUSE_BUTTON_1,      QK_MOUSE_BUTTON_2,      QK_MOUSE_BUTTON_3,      QK_MOUSE_BUTTON_1,
+        QK_MOUSE_BUTTON_1,      QK_MOUSE_BUTTON_2,      QK_MOUSE_BUTTON_3,      KC_ENT,
         QK_MOUSE_BUTTON_4,      KC_UP,                  QK_MOUSE_BUTTON_5,      QK_MOUSE_WHEEL_UP,
         KC_LEFT,                KC_DOWN,                KC_RIGHT,               QK_MOUSE_WHEEL_DOWN,
         TO(1),  TO(2),  TO(3),  TO(4),  TO(5)
     ),
     [1] = LAYOUT(
-        QK_AUDIO_CLICKY_TOGGLE,     KC_AUDIO_MUTE,          KC_AUDIO_MIC_MUTE,      QK_MOUSE_BUTTON_1,
+        QK_AUDIO_CLICKY_TOGGLE,     KC_AUDIO_MUTE,          KC_AUDIO_MIC_MUTE,      KC_ENT,
         KC_MEDIA_REWIND,            KC_MEDIA_PLAY_PAUSE,    KC_MEDIA_FAST_FORWARD,  KC_MEDIA_PREV_TRACK,
         KC_MEDIA_SELECT,            KC_MEDIA_STOP,          KC_MEDIA_EJECT,         KC_MEDIA_NEXT_TRACK,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [2] = LAYOUT(
-        KC_TERMINAL,  KC_COPY_TERMINAL,  KC_PASTE_TERMINAL,  QK_MOUSE_BUTTON_1,
+        KC_TERMINAL,  KC_COPY_TERMINAL,  KC_PASTE_TERMINAL,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [3] = LAYOUT(
-        QK_MIDI_NOTE_C_0,  QK_MIDI_NOTE_C_SHARP_0,  QK_MIDI_NOTE_D_0,  QK_MOUSE_BUTTON_1,
+        QK_MIDI_NOTE_C_0,  QK_MIDI_NOTE_C_SHARP_0,  QK_MIDI_NOTE_D_0,  KC_ENT,
         QK_MIDI_NOTE_D_SHARP_0,  QK_MIDI_NOTE_E_0,  QK_MIDI_NOTE_F_0,  QK_MIDI_NOTE_F_SHARP_0,
         QK_MIDI_NOTE_G_0,  QK_MIDI_NOTE_G_SHARP_0,  QK_MIDI_NOTE_A_0,  QK_MIDI_NOTE_A_SHARP_0,
         TO(0),  QK_MIDI_NOTE_B_0,  QK_MIDI_NOTE_C_1,  QK_MIDI_NOTE_C_SHARP_1,  QK_MIDI_NOTE_D_1
     ),
     [4] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [5] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [6] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [7] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [8] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [9] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [10] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [11] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [12] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [13] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [14] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
     ),
     [15] = LAYOUT(
-        KC_NO,  KC_NO,  KC_NO,  QK_MOUSE_BUTTON_1,
+        KC_NO,  KC_NO,  KC_NO,  KC_ENT,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         KC_NO,  KC_NO,  KC_NO,  KC_NO,
         TO(0),  KC_NO,  KC_NO,  KC_NO,  KC_NO
