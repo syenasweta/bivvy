@@ -2,7 +2,7 @@
 
 ![Bivvy](assets/jpg/bivvy.jpg)
 
-Mechanical keyboard for mouse, with two encoders and analog joystick.
+Mechanical keyboard for mouse, with two encoders and analog joystick, running on Raspberry Pi Pico.
 
 ## Scheme
 
